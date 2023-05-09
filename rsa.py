@@ -13,7 +13,7 @@ print("")
 
 #retrieve public keys which will be used for encryption and verification of messages
 public_key_a = key_a.public_key()
-print("PRIVATE KEY B")
+print("PUBLIC KEY A")
 print(public_key_a.public_bytes(encoding=serialization.Encoding.PEM,format=serialization.PublicFormat.SubjectPublicKeyInfo))
 print("")
 public_key_b = key_b.public_key()
